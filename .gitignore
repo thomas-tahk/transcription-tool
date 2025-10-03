@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+
+# Node modules
+node_modules/
+
+# Audio files (often large)
+audio/*.mp3
+audio/*.wav
+audio/*.m4a
+
+# Output files
+transcripts/
+formatted/
+
+# Mac files
+.DS_Store
+
+# Keep folder structure but ignore contents
+!audio/.gitkeep
+!transcripts/.gitkeep
+!formatted/.gitkeep
+
+# Guidelines are confidential for individual and/or org needs
+guidelines/
+
